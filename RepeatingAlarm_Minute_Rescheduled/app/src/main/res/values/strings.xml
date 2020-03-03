@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">AlarmWithLocationUpdate</string>
+    <string name="app_name">RepeatingAlarm_Minute</string>
 
     <plurals name="num_locations_reported">
         <item quantity="zero">No location reported</item>

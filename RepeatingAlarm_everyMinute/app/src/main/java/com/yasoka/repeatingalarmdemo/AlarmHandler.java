@@ -22,7 +22,8 @@ public class AlarmHandler {
 
             //am.setRepeating(AlarmManager.RTC_WAKEUP, triggerAfter, triggerEvery, sender);
             // 60,000 millisecon == 60 seconds
-            am.setRepeating(AlarmManager.RTC_WAKEUP, 0, 60000, sender);
+            am.setRepeating(AlarmManager.RTC_WAKEUP, 0, 10000, sender);
+
         }
     }
     public void cancelAlarmManager(){
